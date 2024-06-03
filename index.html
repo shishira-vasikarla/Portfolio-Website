@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shishira's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b63fc8b98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img src="Images/logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi,<br> I'm <span>Shishira</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/picture.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a third-year undergraduate student pursuing a Bachelor's in Computer Science Honours at Algoma University, Canada. As a self-starter with a passion for innovation and change, I am deeply interested in evolving technologies and the collaborations between humans and software. My purpose is to enhance the quality of life by utilizing new technologies and intelligence in their best interests.</p>
+    
+    <p>To embark on this journey, I began working on a research project aimed at devloping a Market Reporting Tool to improve and ease the Market Research analysis and Reporting. </p>
+    <p>Outside of my technical pursuits, I am a social butterfly and a spiritualist. I love being around people and all kinds of beings, spreading love, laughter, and peace. My journey is defined by a commitment to learning, a drive to lead, and a dedication to working for the welfare of all.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience_tab')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- -----skills------- -->
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Technical Knowledge:  Java, C++, HTML, CSS, JavaScript, Relational Databases My SQL workbench, MS office (word, excel, Access, Power Point).</span><br>Familiar with:  Data Structures and Algorithms,Figma, GitHub,Generative AI, Windows and MacOS operating systems.</li>
+                            <li><span>Research Experience: Natural Language Processing, Generative AI, Large Language Model (LLM)</span><br>Web app Development</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- -----------experience--------- -->
+                        <div class="tab-contents" id="experience_tab">
+                            <div class="experience">
+                                <div class="column">
+                                  <p class="label">Role:</p>
+                                  <br>
+                                  <p class="content"><b>Research Assistant</b>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                
+
+                                    <b>Java Teaching Assistant</b></p>
+                                </div>
+                                <div class="column">
+                                  <p class="label">Responsibilities:</p>
+                                  <br>
+                                  <p class="content"><li>Developing "An Interactive Tool Enhancing Market Research Analysis through Human-AI Collaboration," the project aims to revolutionize and improve market research analysis methods. 
+                                    Submitted the Research paper as a Lead author to the SNPD 2024-Summer  on May 20th, 2024.</li>
+                                     <li>Assisting for a class of 300 in learning Object-Oriented Programming language, Java. <br>
+                                                     
+                                    </li>
+                                    </p>
+                               
+                                  
+                                </div>
+                                <div class="column">
+                                  <p class="label">Date:</p>
+                                  <br>
+                                  <p class="content">January 24 - Present</p>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  
+                                    
+                                  <p class="content">October 23 - April 24</p>
+                                </div>
+                              </div>
+        </div>
+                      
+                      
+                    <!-- -------------education----------- -->
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Pursuing third year Bachelors's of Computer Science Honours</span><br>Algoma University</li>
+                            <li>GPA - 3.7/4.0</li>
+                            <li>2022 - Present</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Projects-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                    <h2>Market Reporting Tool</h2>
+                    <p>Developing a user-friendly and advanced interface to perform Market Research Analysis to thereby create and generate detailed customized Reports and Power point presentations.</p>
+                    <a href="https://github.com/shishira-vasikarla/Market-Research-Tool">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-amazon"></i>
+                    <h2>E-commerce Clone</h2>
+                    Developed an amazon clone web page using HTML and CSS</p>
+                    <a href="https://rvxavknzfcnftytm2zpxza.on.drv.tw/www.Amazon.clone/">Go to Webpage</a>
+                    <br>
+                    <a href="https://github.com/shishira-vasikarla/Amazon-clone">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+                    <h2>ATM Simulator </h2>
+                    <p>Designed and developed a comprehensive ATM Simulator application using Java to emulate real-world ATM functionalities</p>
+                    <a href="https://github.com/shishira-vasikarla/ATM-Project">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Tic Tac Toe Game</h2>
+                    <p>Developed a Java-based Tic-Tac-Toe game.</p>
+                    <a href="https://github.com/shishira-vasikarla/Tic-tac-toe-game">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-peace"></i>
+                    <h2>Serene Mind</h2>
+                    <p>Designed a user interface (UI) for the mental health app "Serene Mind" using Figma, a collaborative design tool. </p>
+                    <a href="https://github.com/shishira-vasikarla/Serene-Mind">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+    <!-- --------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shishvas9@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +1 (437)-(983)-(9944)</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/shishira-vasikarla"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://acrobat.adobe.com/link/file/?x_api_client_id=adobe_com&x_api_client_location=word_to_pdf&uri=urn%3Aaaid%3Asc%3AVA6C2%3A857f5bf8-0781-49af-975a-57ca40243dff&viewer%21megaVerb=group-discover" download="" class="btn btn2">Dowmload Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Developed by Shishira <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <!-- -------javascript--------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<!-- Side menu java script code -->
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<!-- Script for feedback form -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzPhTB0QUFwwtQibLLFrIS77ujP9ETOW4R42QKwD3bdYn7vwdjcTtU8MpdjOer6ZAL9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Feedback sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
